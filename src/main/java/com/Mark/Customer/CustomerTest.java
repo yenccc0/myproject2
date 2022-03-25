@@ -1,4 +1,4 @@
-package com.Mark;
+package com.Mark.Customer;
 
 public class CustomerTest {
 

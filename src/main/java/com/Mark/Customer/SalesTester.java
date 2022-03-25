@@ -1,4 +1,8 @@
-package com.Mark;
+package com.Mark.Customer;
+
+import com.Mark.Customer.Customer;
+import com.Mark.Customer.GoldenCustomer;
+import com.Mark.Customer.SilverCustomer;
 
 public class SalesTester {
     public static void main(String[] args) {
