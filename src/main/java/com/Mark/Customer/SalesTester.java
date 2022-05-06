@@ -9,6 +9,9 @@ import java.util.List;
 
 public class SalesTester {
     public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>();
+        list.add(800);
+
         List<Customer> customers = new ArrayList<Customer>();
         customers.add(new Customer("0001",1200));
         customers.add(new Customer("0002",800));
@@ -19,7 +22,7 @@ public class SalesTester {
         for (int i = 0; i < 6; i++) {
             customers.get(i).print();
         }
-        for(Customer c :customers){
+       for(Customer c :customers){
             c.print();
         }
 

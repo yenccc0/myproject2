@@ -14,7 +14,7 @@ public class PlatinumCustomer extends GoldenCustomer{
     public float getOffMoney() {
         return  (int)(amount*0.3f);
     }
-    public void print() {
+/*    public void print() {
         System.out.print(id + "\t" + amount + "\t" + (amount-getOffMoney())+"("+getReturnMoney()+")");
-    }
+    }*/
 }
