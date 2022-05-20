@@ -1,0 +1,8 @@
+package com.Mark.exam.uI;
+
+public class Tester {
+    public static void main(String[] args) {
+        Person p = new Person();
+        System.out.println(p.name);
+    }
+}
