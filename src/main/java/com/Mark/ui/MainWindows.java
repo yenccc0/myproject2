@@ -27,11 +27,11 @@ public class MainWindows {
         frame.setLayout(new FlowLayout());
         //frame.setLayout(new BorderLayout());
         frame.add(button);
-
-
-        //Layout
         frame.setVisible(true);
-        System.out.println("End?");
+        frame.add(button);
+        frame.setVisible(true);
+        System.out.println("start");
+        System.out.println("End");
 
     }
 }
