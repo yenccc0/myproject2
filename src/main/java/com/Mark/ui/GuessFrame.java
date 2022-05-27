@@ -6,24 +6,28 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GuessFrame extends JFrame {
+    //Fields
+    JButton button = new JButton("Apple");
+    JLabel label = new JLabel("WoWoWoW");
+    JTextField number = new JTextField(10);
+    //Constructor
     public GuessFrame(){
         super();
-        setSize(600,400);
+        setSize(500,300);
         setLocation(300,250);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setVisible(true);
-        JButton button = new JButton("Apple");
-        JLabel label = new JLabel("WoWoWoW");
         button.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent e) {
 //                System.out.println("Hello5");
-                label.setText("Hello!!!");
+//                label.setText("Hello!!!");
+                int num = Integer.parseInt(number.getText());
+                System.out.println(num);
             }
         });
-
         setLayout(new FlowLayout());
+        add(number);
         add(label);
         add(button);
         setVisible(true);
