@@ -1,6 +1,8 @@
-package com.Mark;
+package com.Mark.Score;
 
-import org.jetbrains.annotations.NotNull;
+import com.Mark.Score.GraduateStudent;
+import com.Mark.Score.Student;
+
 import java.util.ArrayList;
 import java.util.List;
 public class Scoring {

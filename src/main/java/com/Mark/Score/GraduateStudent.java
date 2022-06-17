@@ -1,4 +1,6 @@
-package com.Mark;
+package com.Mark.Score;
+
+import com.Mark.Score.Student;
 
 public class GraduateStudent extends Student {
     int thesis;

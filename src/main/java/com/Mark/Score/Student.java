@@ -1,4 +1,4 @@
-package com.Mark;
+package com.Mark.Score;
 
 public class Student {
     String name;
